@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<title>LOGIN - Spring boot APP</title>
+
+</head>
+
+<body>
+	<div>
+		<div>
+			<h3>Basic Spring boot APP with SpringSecurity...</h3>
+			<h3>...REST API and SpringData Repositories</h3>
+
+			<p>Just a regular HTML post</p>
+
+			<form name="f" action="/login" method="post">
+
+				<div hidden="true" id="error">Invalid user/password.</div>
+
+				<div>
+					<input id="username" name="username" type="text"
+						placeholder="Username" required>
+				</div>
+				<div>
+					<input id="password" name="password" type="password"
+						placeholder="Password" required>
+				</div>
+
+				<button type="submit">Login</button>
+
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>
+
